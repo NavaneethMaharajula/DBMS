@@ -11,6 +11,8 @@ dbms_output.put_line('sname'||v_sname);
 dbms_output.put_line('age:'||v_age);
 end;
   /
+    
+execute p_sail5(22);
 
 Q. modification of procedure to view some specified columns from a table
 
@@ -24,3 +26,5 @@ Sid=V-sid1;
 Commit;
 end;
 /
+
+execute psailors(71,'jack',45);
